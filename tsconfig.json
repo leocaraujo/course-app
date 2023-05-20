@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/lib/supabase.js", "src/app/components/CourseList.jsx", "src/components/CourseCard.jsx", "src/pages/index.jsx"],
   "exclude": ["node_modules"]
 }
